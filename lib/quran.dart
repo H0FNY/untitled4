@@ -84,66 +84,68 @@ class quran extends StatelessWidget {
         child: Column(
           children: [
             SizedBox(height: 45,),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.start,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Expanded(
-                  child: Column(
-                    children: [
-                      Text(
-                        'سورة',
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Color(0xFF93BFCF),
-                          fontWeight: FontWeight.bold,
+            Container(
+              height: 34,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Expanded(
+                    child: Column(
+                      children: [
+                        Text(
+                          'سورة',
+                          style: TextStyle(
+                            fontSize: 20,
+                            color: Color(0xFF93BFCF),
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
-                ),
-                Container(
-
-                  color: Color(0xFF93BFCF),
-                  width: 2,
-                  height: 22,
-                ),
-                Expanded(
-                  child: Column(
-                    children: [
-                      Text(
-                        'الربع',
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Color(0xFF93BFCF),
-                          fontWeight: FontWeight.bold,
+                  Container(
+                    color: Color(0xFF93BFCF),
+                    width: 2,
+                    height: 22,
+                  ),
+                  Expanded(
+                    child: Column(
+                      children: [
+                        Text(
+                          'الربع',
+                          style: TextStyle(
+                            fontSize: 20,
+                            color: Color(0xFF93BFCF),
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
-                ),
-                Container(
-
-                  color: Color(0xFF93BFCF),
-                  width: 2,
-                  height: 22,
-                ),
-                Expanded(
-                  child: Column(
-                    children: [
-                      Text(
-                        'الجزء',
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Color(0xFF93BFCF),
-                          fontWeight: FontWeight.bold,
+                  Container(
+                    color: Color(0xFF93BFCF),
+                    width: 2,
+                    height: 22,
+                  ),
+                  Expanded(
+                    child: Column(
+                      children: [
+                        Text(
+                          'الجزء',
+                          style: TextStyle(
+                            fontSize: 20,
+                            color: Color(0xFF93BFCF),
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
+
           ],
         ),
       ),
