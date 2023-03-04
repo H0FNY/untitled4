@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:untitled4/Regester.dart';
+import 'package:untitled4/Register.dart';
 import 'package:untitled4/componant.dart';
 import 'package:untitled4/task2.dart';
 
